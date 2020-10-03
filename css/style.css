@@ -1,0 +1,56 @@
+body {
+    background-image: url("/Presentation/img/Grecia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Perfil {
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    margin-left: -120px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+.profile {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 125px;
+    border: 5px solid white;
+}
+.profile:hover {
+    border: 5px solid green;
+    cursor: pointer;
+}
+.name {
+    position: relative;
+    top: 240px;
+    text-align: center;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: italic;    
+}
+.name:hover {
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+}
+.city {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    color: #ffcc45;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.city:hover {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
